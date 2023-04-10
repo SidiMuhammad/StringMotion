@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hujan</title>
+</head>
+<style>
+    html {
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgb(50, 0, 80);
+    }
+
+    .canvas {
+        max-width: 100vh;
+        height: auto;
+    }
+</style>
+<body>
+    <svg class="canvas" viewBox="0 0 200 200" class="face-canvas" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="fill1" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="rgb(250, 40, 110)" />
+                <stop offset="100%" stop-color="rgb(50, 50, 200)" />
+            </linearGradient> 
+        </defs>
+    </svg>
+    <script type="text/javascript" src="anime.min.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
